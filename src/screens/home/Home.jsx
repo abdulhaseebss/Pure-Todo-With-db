@@ -1,9 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Swal from 'sweetalert2'
-import FirebaseConfig from '../../config/firebase/FirebaseConfig.js';
 import { getData, getDocuments, getUser, signOutUser, updateDocument } from '../../config/firebase/FirebaseMathods'
 import { Timestamp, addDoc, collection, deleteDoc, doc, updateDoc } from 'firebase/firestore'
-import { auth, db } from '../../config/firebase/FirebaseConfig'
+import { auth, db } from '../../config/firebase/FirebaseConfig.js'
 import {  DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
