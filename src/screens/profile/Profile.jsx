@@ -1,4 +1,4 @@
-import { auth } from '@/config/firebase/FirebaseConfig'
+import { auth } from '@/config/firebase/FirebaseConfig.js'
 import { addImageToStorage, getUser, updateDocument } from '@/config/firebase/FirebaseMathods'
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
