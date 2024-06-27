@@ -2,7 +2,7 @@ import { onAuthStateChanged } from 'firebase/auth';
 import React, { createContext, useEffect, useState } from 'react'
 import { getData, getUser } from '../config/firebase/FirebaseMathods';
 import { useNavigate } from 'react-router-dom';
-import { auth } from '../config/firebase/FirebaseConfig';
+import { auth } from '../config/firebase/firebaseConfig.js';
 
 const UserContext = createContext()
 
